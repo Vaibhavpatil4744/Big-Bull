@@ -6,8 +6,8 @@ import CourseHome from "./components/allcourses/CourseHome"
 import Team from "./components/team/Team"
 import Pricing from "./components/pricing/Pricing"
 import Blog from "./components/blog/Blog"
-import Contact from "./components/contact/Contact"
-import Footer from "./components/common/footer/Footer"
+//import Contact from "./components/Contact/contact"
+//import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 function App() {
   return (
@@ -21,12 +21,19 @@ function App() {
           <Route exact path='/team' component={Team} />
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
-          <Route exact path='/contact' component={Contact} />
+          .
         </Switch>
-        <Footer />
+        .
       </Router>
     </>
   )
 }
 
 export default App
+
+
+
+
+
+//<Route exact path='/contact' component={Contact} />
+//<Footer />
