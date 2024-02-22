@@ -1,5 +1,5 @@
 import React from "react"
-import OnlineCourses from "../allcourses/OnlineCourses"
+import OnlineCourses from "../allcources/onlineCources"
 import Heading from "../common/heading/Heading"
 import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
